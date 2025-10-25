@@ -45,13 +45,12 @@ Looking at the existing issues is a great way to find something to contribute on
 
 
 ## Code of Conduct
-This project has adopted the [Amazon Open Source Code of Conduct](https://aws.github.io/code-of-conduct).
-For more information see the [Code of Conduct FAQ](https://aws.github.io/code-of-conduct-faq) or contact
-opensource-codeofconduct@amazon.com with any additional questions or comments.
+This project has adopted the standard open source [Code of Conduct](https://opensource.org/code-of-conduct).
+For more information see the [Code of Conduct FAQ](https://opensource.org/code-of-conduct/faq/) or contact the project maintainers with any additional questions or comments.
 
 
 ## Security issue notifications
-If you discover a potential security issue in this project we ask that you notify AWS/Amazon Security via our [vulnerability reporting page](http://aws.amazon.com/security/vulnerability-reporting/). Please do **not** create a public github issue.
+If you discover a potential security issue in this project, please report it privately to the project maintainers rather than creating a public issue. Please follow responsible disclosure practices and avoid creating public issues for security vulnerabilities.
 
 
 ## Licensing

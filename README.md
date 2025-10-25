@@ -27,7 +27,7 @@ AI Control (AICTL) implements a hierarchical multi-agent system that enables com
 
 * **Direct worker interaction and steering** – Users can interact directly with worker agents to provide additional steering, distinguishing from sub-agents features by allowing real-time guidance and course correction.
 
-* **Advanced CLI integration** – AICTL agents have full access to advanced features of the developer CLI, such as the [sub-agents](https://docs.claude.com/en/docs/claude-code/sub-agents) feature of Claude Code, [Custom Agent](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line-custom-agents.html) of Amazon Q Developer for CLI and so on.
+* **Advanced CLI integration** – AICTL agents have full access to advanced features of the developer CLI, such as the [sub-agents](https://docs.claude.com/en/docs/claude-code/sub-agents) feature of Claude Code and other custom agent capabilities.
 
 For detailed project structure and architecture, see [CODEBASE.md](CODEBASE.md).
 
@@ -74,7 +74,7 @@ aictl install /absolute/path/to/agent.md
 aictl install https://example.com/agents/custom-agent.md
 ```
 
-When installing from a file or URL, the agent is saved to your local agent store (`~/.aws/aictl/agent-store/`) and can be referenced by name in future installations.
+When installing from a file or URL, the agent is saved to your local agent store (`~/.aictl/agent-store/`) and can be referenced by name in future installations.
 
 For details on creating custom agent profiles, see [docs/agent-profile.md](docs/agent-profile.md).
 

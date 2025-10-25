@@ -41,7 +41,7 @@
          │             │                  │
     ┌────▼────┐  ┌─────▼─────┐     ┌─────▼──────┐
     │  Tmux   │  │  SQLite   │     │ CLI Tools  │
-    │ Sessions│  │  Database │     │• Amazon Q  │
+    │ Sessions│  │  Database │     │• CLI Tools  │
     └─────────┘  └───────────┘     │  CLI       │
                                    │• Claude    │
                                    │  Code      │
@@ -71,7 +71,7 @@ src/cli_agent_orchestrator/
 ├── providers/             # Provider Layer: CLI tool integration
 │   ├── base.py            # Abstract provider interface
 │   ├── manager.py         # Maps terminal_id → provider
-│   ├── q_cli.py           # Amazon Q CLI provider (q_cli)
+│   ├── q_cli.py           # CLI provider (q_cli)
 │   └── claude_code.py     # Claude Code provider (claude_code)
 ├── models/                # Data models
 │   ├── terminal.py        # Terminal, TerminalStatus

@@ -18,7 +18,7 @@ TERMINAL_HISTORY_LINES = 200
 STATUS_CHECK_LINES = 100
 
 # Application directories
-AICTL_HOME_DIR = Path.home() / ".aws" / "aictl"
+AICTL_HOME_DIR = Path.home() / ".aictl"
 DB_DIR = AICTL_HOME_DIR / "db"
 LOG_DIR = AICTL_HOME_DIR / "logs"
 TERMINAL_LOG_DIR = LOG_DIR / "terminal"
@@ -37,7 +37,7 @@ AGENT_CONTEXT_DIR = AICTL_HOME_DIR / "agent-context"
 LOCAL_AGENT_STORE_DIR = AICTL_HOME_DIR / "agent-store"
 
 # Q CLI directories
-Q_AGENTS_DIR = Path.home() / ".aws" / "amazonq" / "cli-agents"
+Q_AGENTS_DIR = Path.home() / ".amazonq" / "cli-agents"
 
 # Database configuration
 DATABASE_FILE = DB_DIR / "aictl.db"
