@@ -7,7 +7,7 @@ SESSION_PREFIX = "aictl-"
 
 # Available providers
 PROVIDERS = ['q_cli', 'claude_code']
-DEFAULT_PROVIDER = "q_cli"
+DEFAULT_PROVIDER = "claude_code"
 
 # Tmux capture limits
 TMUX_HISTORY_LINES = 200
